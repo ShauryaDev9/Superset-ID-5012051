@@ -1,0 +1,14 @@
+Q. Compare the time complexity of linear and binary search algorithms
+Time Complexity Comparison:
+Linear Search:
+Time Complexity: O(n) in all cases (great, common, worst).
+Pros: Simple to put in force and works with unsorted arrays.
+Cons: Inefficient for big arrays because it calls for scanning the entire array.
+
+Binary Search:
+Time Complexity: O(log n) in all cases (satisfactory, average, worst), furnished the array is looked after.
+Pros: Much faster for massive arrays in comparison to linear seek.
+Cons: Requires the array to be sorted. Sorting the array adds extra overhead if it’s now not already looked after.
+
+Q. Discuss which algorithm is more suitable for your platform and why:
+For an e-commerce platform with probably large product catalogs, binary search is greater appropriate because of its logarithmic time complexity. However, this assumes that the goods are sorted by call. If the information isn't always taken care of, a linear seek may to begin with be used to carry out a one-time type and then binary look for subsequent queries. For dynamic environments with common updates and queries, preserving taken care of order or using more superior records structures (e.G., balanced trees) ought to similarly optimize search performance.

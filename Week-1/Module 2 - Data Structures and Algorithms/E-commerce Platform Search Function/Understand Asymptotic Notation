@@ -1,0 +1,22 @@
+1. Explain Big O notation and how it helps in analyzing algorithms
+Big O Notation:
+
+Big O notation is used to describe the performance or complexity of an algorithm in phrases of time and area. It presents an top bound at the time complexity of an set of rules, permitting us to apprehend how the runtime grows as the dimensions of the input increases.
+
+O(1): Constant time complexity. The runtime does not alternate with the size of the enter.
+O(n): Linear time complexity. The runtime increases linearly with the dimensions of the enter.
+O(log n): Logarithmic time complexity. The runtime grows logarithmically with the size of the input.
+
+2. Describe the best, average, and worst-case scenarios for search operations
+Best, Average, and Worst-Case Scenarios for Search Operations:
+
+Linear Search:
+
+Best Case: O(1) – The target element is the primary detail in the array.
+Average Case: O(n) – The target detail is somewhere inside the center of the array.
+Worst Case: O(n) – The goal element is not in the array, requiring a complete test.
+Binary Search:
+
+Best Case: O(1) – The goal detail is at the middle of the array.
+Average Case: O(log n) – The goal element is determined after a logarithmic wide variety of comparisons.
+Worst Case: O(log n) – The goal element is located after logarithmic comparisons in a sorted array.

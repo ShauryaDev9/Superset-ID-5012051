@@ -1,0 +1,10 @@
+Time Complexity: The time complexity of the recursive algorithm is 
+𝑂(𝑛)
+O(n), where 𝑛
+n is the range of durations. Each recursive name entails a consistent quantity of work, so the total quantity of calls is proportional to the wide variety of periods.
+
+Optimization Considerations:
+Memoization: To avoid repeated calculations, we can use memoization to save the outcomes of previously computed values. This technique can transform a naive recursive answer into a extra efficient one, significantly decreasing the time complexity to 
+𝑂(𝑛)
+O(n) for the memoized version.
+Iterative Approach: For massive values of durations, an iterative method may be greater efficient than recursion to avoid stack overflow errors and decrease overhead.

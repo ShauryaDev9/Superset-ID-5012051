@@ -1,0 +1,13 @@
+Q. Explain the different types of linked lists (Singly Linked List, Doubly Linked List)
+
+Types of Linked Lists
+
+Singly Linked List:
+Structure: Each node in a singly linked listing contains a records area and a reference (or hyperlink) to the next node inside the series.
+Operations: Efficient in operations which include insertion and deletion at the beginning of the listing. However, looking or deleting a selected node calls for traversal from the pinnacle of the listing.
+Advantages: Simple structure and clean to enforce. Requires less memory as compared to doubly related lists.
+
+Doubly Linked List:
+Structure: Each node includes a records discipline, a connection with the subsequent node, and a connection with the previous node.
+Operations: Allows traversal in both ahead and backward instructions, making it simpler to carry out certain operations, together with deletion from the give up of the listing.
+Advantages: More flexible in terms of traversal and manipulation but uses more memory due to the greater reference for the preceding node.

@@ -1,0 +1,46 @@
+Q. Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort)
+1. Bubble Sort
+Bubble Sort is a simple sorting set of rules that again and again steps through the listing, compares adjoining elements, and swaps them if they're within the incorrect order. The method is repeated till the listing is sorted.
+
+Time Complexity:
+Best Case: O(n) – When the list is already taken care of (with an optimized model that forestalls early).
+Average Case: O(n^2) – Due to nested loops.
+Worst Case: O(n^2) – When the listing is taken care of in reverse order.
+Space Complexity: O(1) – It’s an in-vicinity sorting algorithm.
+
+Advantages:
+Simple to put into effect.
+No extra memory wanted.
+Disadvantages:
+Inefficient for big datasets because of its quadratic time complexity
+
+2. Insertion Sort
+Insertion Sort builds the final sorted array one item at a time. It picks the next item and inserts it into its correct position among the previously sorted items.
+
+Time Complexity
+Best Case: O(n) – When the array is already sorted.
+Average Case: O(n^2) – Due to nested loops.
+Worst Case: O(n^2) – When the array is sorted in reverse order.
+Space Complexity: O(1) – It’s an in-place sorting algorithm.
+
+Advantages:
+Simple and intuitive.
+Efficient for small datasets or nearly sorted arrays.
+Disadvantages:
+Inefficient for large datasets due to its quadratic time complexity.
+
+3. Quick Sort
+Quick Sort is a divide-and-triumph over set of rules. It selects a 'pivot' element and walls the alternative elements into two sub-arrays in line with whether they're much less than or more than the pivot. The sub-arrays are then sorted recursively.
+
+Time Complexity:
+Best Case: O(n log n) – When the pivot divides the array into more or less identical components.
+Average Case: O(n log n) – Generally green.
+Worst Case: O(n^2) – When the pivot is the smallest or biggest detail, leading to unbalanced walls (can be mitigated with random pivots).
+Space Complexity: O(log n) – Due to recursive stack space.
+
+Advantages:
+Generally quicker than other O(n log n) algorithms for huge datasets.
+Efficient in exercise for huge arrays.
+Disadvantages:
+Not stable (does now not keep the order of identical factors).
+Performance can degrade with poor pivot choices.

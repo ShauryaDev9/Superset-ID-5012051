@@ -1,0 +1,6 @@
+
+Book.java: This file contains the Book class with attributes bookId, title, and author, along with a constructor, getters, and a toString method for easy display.
+
+Library.java: This file contains the Library class with a list of books. It includes methods for linear search (linearSearchByTitle) and binary search (binarySearchByTitle). The binary search method sorts the list before performing the search.
+
+LibraryManagementSystem.java: This is the main file that sets up the list of books and demonstrates the use of both linear and binary search methods.

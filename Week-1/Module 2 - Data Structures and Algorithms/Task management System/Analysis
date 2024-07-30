@@ -1,0 +1,22 @@
+Time Complexity of Each Operation
+Add Task:
+Time Complexity: O(n) – Adding a task requires traversal to the end of the list to append the new task. If inserting at the beginning, the time complexity would be O(1).
+
+Search Task:
+Time Complexity: O(n) – Searching for a task requires traversing the list from the head to find the task with the specified ID.
+
+Traverse All Tasks:
+Time Complexity: O(n) – Each node must be visited once to display all tasks.
+
+Delete Task:
+Time Complexity: O(n) – Deleting a task involves searching for it (O(n)) and then unlinking it from the list (O(1)).
+
+Q. Advantages of Linked Lists Over Arrays
+Dynamic Size:
+Linked lists can develop or decrease dynamically as factors are brought or removed. Arrays, then again, have a hard and fast length as soon as initialized.
+
+Efficient Insertions/Deletions:
+Linked lists offer efficient insertions and deletions, particularly at the beginning of the list, as those operations do no longer require shifting factors. In arrays, insertion and deletion may be highly-priced because of the need to shift elements.
+
+Memory Utilization:
+Linked lists use reminiscence extra flexibly, allocating area most effective when wished. Arrays require pre-allocation of a fixed quantity of memory.

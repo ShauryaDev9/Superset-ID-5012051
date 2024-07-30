@@ -1,0 +1,9 @@
+Q. Explain how arrays are represented in memory and their advantages
+Contiguous Memory Allocation:
+Arrays are saved in contiguous blocks of memory. This approach that every one elements are stored in adjacent memory places, which permits for efficient access.
+Index-Based Access:
+Access to any detail inside the array is finished thru indexing. The reminiscence address of an element is calculated using the bottom cope with of the array and the size of each element, providing O(1) get admission to time.
+Advantages of Arrays
+Fast Access: Direct indexing lets in for steady time complexity (O(1)) for gaining access to factors.
+Efficient Memory Usage: Minimal overhead due to the fact that arrays do now not require additional reminiscence for guidelines or hyperlinks.
+Cache Friendliness: Contiguous allocation improves cache performance by means of ensuring that reminiscence accesses are sequential.

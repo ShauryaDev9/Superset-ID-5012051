@@ -1,0 +1,26 @@
+Time Complexity of Operations
+Add Employee:
+Time Complexity: O(1) – Adding an employee to the end of the array is constant time if there is space available.
+Best Case: The array has space.
+Worst Case: The array is full, leading to a potential failure to add an employee.
+
+Search Employee:
+Time Complexity: O(n) – In the worst case, all elements might need to be checked.
+Best Case: The employee is at the beginning of the array.
+
+Traverse All Employees:
+Time Complexity: O(n) – Each employee must be accessed once.
+
+Delete Employee:
+Time Complexity: O(n) – Requires searching for the employee (O(n)) and shifting elements (O(n)).
+
+Limitations of Arrays
+Fixed Size:
+
+The size of an array is fixed once initialized. If more space is needed, a new larger array must be created and elements copied over.
+Inefficient Insertions/Deletions:
+
+Insertion and deletion operations require shifting elements, which can be costly (O(n)).
+Limited Flexibility:
+
+Arrays do not provide dynamic resizing. For dynamic size changes, other data structures like ArrayLists (in Java) are more suitable.

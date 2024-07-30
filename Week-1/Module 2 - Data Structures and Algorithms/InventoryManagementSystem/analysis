@@ -1,0 +1,12 @@
+4. Analysis
+Time Complexity:
+
+    Add Operation: O(1) on average for HashMap as it uses a hash table.
+    Update Operation: O(1) on average for HashMap as it involves updating an existing entry.
+    Delete Operation: O(1) on average for HashMap as it involves removing an existing entry.
+
+Optimization Strategies:
+
+   1. HashMap Load Factor and Capacity: Adjusting the load factor and initial capacity of the HashMap can help optimize performance, especially when dealing with a very large inventory. This can reduce the likelihood of collisions and the need for resizing.
+   2. Concurrency Handling: If the inventory system is accessed by multiple threads, consider using ConcurrentHashMap to handle concurrent modifications safely.
+   3. Indexing: If searching by multiple attributes is required (e.g., product name or price), consider using additional data structures or indexes to improve search performance.

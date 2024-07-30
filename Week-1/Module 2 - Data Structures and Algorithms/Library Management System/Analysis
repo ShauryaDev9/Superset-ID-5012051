@@ -1,0 +1,21 @@
+> Time Complexity Comparison
+
+Linear Search:
+Time Complexity: O(n)
+Description: It checks each element one by one. Efficient for small datasets or unsorted lists.
+
+Binary Search:
+Time Complexity: O(log n)
+Description: It repeatedly divides the list in half. Requires the list to be sorted. More efficient than linear search for large datasets.
+
+> When to Use Each Algorithm
+
+Use Linear Search:
+When the dataset is small or unsorted.
+When the list of books is dynamic and frequently modified.
+When the order of elements does not matter.
+
+Use Binary Search:
+When the dataset is large and sorted.
+When quick search operations are essential, and the list does not change frequently.
+When performance is critical and the list can be maintained in a sorted order.

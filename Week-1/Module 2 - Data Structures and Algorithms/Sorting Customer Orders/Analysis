@@ -1,0 +1,24 @@
+Performance Comparison
+Bubble Sort:
+Time Complexity:
+Best Case: O(n) – When the list is already sorted (if optimized to stop early).
+Average Case: O(n^2) – Due to nested loops.
+Worst Case: O(n^2) – When the list is sorted in reverse order.
+Space Complexity: O(1) – It’s an in-place sorting algorithm.
+
+Quick Sort:
+Time Complexity:
+Best Case: O(n log n) – When the pivot divides the array into roughly equal parts.
+Average Case: O(n log n) – Generally efficient.
+Worst Case: O(n^2) – When the pivot is the smallest or largest element (can be mitigated with good pivot strategies).
+Space Complexity: O(log n) – Due to recursive stack space.
+
+Q. Why Quick Sort is Generally Preferred:
+Efficiency:
+Quick Sort is usually faster in exercise as compared to Bubble Sort due to its common-case time complexity of O(n log n) as opposed to Bubble Sort’s O(n^2).
+Scalability:
+Quick Sort performs properly with big datasets, while Bubble Sort turns into impractical for massive datasets because of its quadratic time complexity.
+Less Comparisons:
+Quick Sort minimizes the number of comparisons and swaps with the aid of partitioning the statistics successfully, whereas Bubble Sort time and again compares and swaps adjacent factors.
+Practical Implementations:
+Quick Sort’s overall performance is regularly more desirable with optimizations like choosing a good pivot and the usage of hybrid tactics (e.G., switching to Insertion Sort for small subarrays).

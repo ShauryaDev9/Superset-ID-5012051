@@ -1,0 +1,5 @@
+Recursion is a programming technique where a method calls itself in order to solve smaller instances of the same problem. It is particularly useful for problems that can be broken down into similar sub-problems. The key aspects of recursion include:
+
+Base Case: The condition under which the recursion stops.
+Recursive Case: The step where the method calls itself with a modified argument.
+Recursive algorithms can simplify code and make it more readable, especially for problems like factorial calculation, Fibonacci sequence, and problems that naturally fit a divide-and-conquer strategy.

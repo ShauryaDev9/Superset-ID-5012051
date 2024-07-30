@@ -1,0 +1,8 @@
+Q.  Explain why data structures and algorithms are essential in handling large inventories.
+    The importance of data structures and algorithms: The sufficient storage and right access speed are necessary for systems that possess a large inventory in a warehouse. The data 	structure and algorithm selection are very important as they have a direct bearing on the system's performance and scalability. Data structures have a way to store and organize, 	whereas algorithms determine the steps for data manipulation. Fast data retrieval and manipulation are the requirements for the inventory system to be able to manage large amounts of 	data in a short time and without mistakes.
+
+Q. Discuss the types of data structures suitable for this problem
+    Suitable data structures are:
+       1. ArrayList: The implementation of a dynamic array that reacts quickly to the access and update operations is provided. Nevertheless, rental or deletion of the elements could be very 	expensive due to the fact that other elements have to be moved.
+       2. HashMap: A storage format that consists of a pair of keys and values allows to find the answer in an average time of O(1) for insertion, deletion, and retrieval operations. This 	approach is particularly useful for the management of inventories when product ID is required for quick lookups.
+       3. LinkedList: Valuable when it comes to a situation where frequent addition and subtraction are expected, nevertheless, it has low access times than ArrayList and HashMap.
